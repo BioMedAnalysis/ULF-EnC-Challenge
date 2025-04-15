@@ -33,22 +33,40 @@ ULF-EnC-Challenge/
 ├── README.md           # Project documentation
 ```
 
-🖥️ Installation & Setup
+## 🖥️ Installation & Setup
 
-1️⃣ Install Required Dependencies
+### 1️⃣ Install Required Dependencies
 
-Ensure you have Python 3.x installed, then run:
+Ensure you have **Python 3.x** installed, then run the following commands:
+
+```bash
 pip install numpy nibabel pandas scikit-image
+```
 
+### 📥 Clone the Repository
+
+```bash
 git clone https://github.com/your-username/ULF-EnC-Challenge.git
-
 cd ULF-EnC-Challenge
+```
 
+### 🧪 Generate Dummy Data
+
+```bash
 python generate_dummy_data.py
+```
 
+### ✅ Run Evaluation
+
+```bash
 python evaluation.py
+```
 
+### 📊 View Leaderboard
+
+```bash
 cat leaderboard.csv
+```
 
 📊 Evaluation Process
 
@@ -68,32 +86,41 @@ Leaderboard ranks teams based on a weighted combination of SSIM (70%), PSNR (10%
 
 Results are stored in leaderboard.csv.
 
-🚀 Submission Guidelines
+## 🚀 Submission Guidelines
 
-🔹 File Naming
+### 🔹 File Naming
 
-Each team must submit enhanced MRI images in the following format:
+Each team must submit enhanced MRI images using the following naming format:
 
+```
 subject_{ID}_enhanced_{MODALITY}.nii.gz
+```
 
-subject_1_enhanced_T1.nii.gz
-subject_1_enhanced_T2.nii.gz
-subject_1_enhanced_FLAIR.nii.gz
+**Examples:**
 
-📂 submissions/
-    ├── 📂 team_name/
-    │   ├── subject_1_enhanced_T1.nii.gz
-    │   ├── subject_1_enhanced_T2.nii.gz
-    │   ├── subject_1_enhanced_FLAIR.nii.gz
-    │   ├── ...
+```
+subject_1_enhanced_T1.nii.gz  
+subject_1_enhanced_T2.nii.gz  
+subject_1_enhanced_FLAIR.nii.gz  
+```
 
-🔹 Submission Format
+**Expected Directory Structure:**
 
-All submissions must be in .nii.gz format.
+```
+submissions/
+└── team_name/
+    ├── subject_1_enhanced_T1.nii.gz
+    ├── subject_1_enhanced_T2.nii.gz
+    ├── subject_1_enhanced_FLAIR.nii.gz
+    ├── ...
+```
 
-Each team must upload a Docker image with their trained model.
+### 🔹 Submission Format
 
-The submission must produce 3D reconstructions for each test subject.
+- All reconstructed images must be submitted in **`.nii.gz`** format.
+- Each team must upload a **Docker image** containing their trained model.
+- The submission should produce **3D reconstructions** for each test subject.
+
 
 📜 License
 
