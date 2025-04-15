@@ -46,7 +46,7 @@ pip install numpy nibabel pandas scikit-image
 ### 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ULF-EnC-Challenge.git
+git clone https://github.com/BioMedAnalysis/ULF-EnC-Challenge.git
 cd ULF-EnC-Challenge
 ```
 
