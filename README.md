@@ -13,7 +13,7 @@ Develop deep learning models to enhance 64mT MRI images.
 
 Maintain anatomical integrity and clinical relevance.
 
-Benchmark solutions using SSIM and PSNR metrics.
+Submissions are benchmarked using a weighted combination of SSIM, PSNR, MAE, and NMSE, with SSIM contributing the most to the final ranking to emphasize structural fidelity.
 
 Promote accessibility to high-quality MRI in low-resource settings.
 
