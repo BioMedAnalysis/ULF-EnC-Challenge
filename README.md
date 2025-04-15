@@ -15,19 +15,23 @@ Benchmark solutions using SSIM and PSNR metrics.
 
 Promote accessibility to high-quality MRI in low-resource settings.
 
-📦 ULF-EnC-Challenge
-├── 📂 data
-│   ├── 📂 test
-│   │   ├── 📂 3T # Ground truth high-field MRI
-│   │   ├── 📂 64mT # Ultra-low-field MRI
-├── 📂 submissions
-│   ├── 📂 team1  # Example team submission
-│   ├── 📂 team2  # Additional submissions
-├── 📜 evaluation.py  # Evaluation script for ranking submissions
-├── 📜 generate_dummy_data.py  # Script for testing with synthetic data
-├── 📜 leaderboard.csv  # Generated results after evaluation
-├── 📜 evaluation.log  # Log file with warnings/errors
-├── 📜 README.md  # Project documentation
+## 📦 ULF-EnC-Challenge
+
+```
+ULF-EnC-Challenge/
+├── data/
+│   ├── test/
+│   │   ├── 3T/         # Ground truth high-field MRI
+│   │   ├── 64mT/       # Ultra-low-field MRI
+├── submissions/
+│   ├── team1/          # Example team submission
+│   ├── team2/          # Additional submissions
+├── evaluation.py       # Evaluation script for ranking submissions
+├── generate_dummy_data.py  # Script for testing with synthetic data
+├── leaderboard.csv     # Generated results after evaluation
+├── evaluation.log      # Log file with warnings/errors
+├── README.md           # Project documentation
+```
 
 🖥️ Installation & Setup
 
