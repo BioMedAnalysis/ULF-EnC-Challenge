@@ -137,6 +137,27 @@ submissions/
 │       └── POCEMR003_FLAIR.nii.gz
 ...
 ```
+### ✅ Test Folder Structure
+
+```
+📁 test/
+├── 📁 POCEMR001/
+│   └── 📁 Enhanced/
+│       ├── POCEMR001_T1.nii.gz
+│       ├── POCEMR001_T2.nii.gz
+│       └── POCEMR001_FLAIR.nii.gz
+├── 📁 POCEMR002/
+│   └── 📁 Enhanced/
+│       ├── POCEMR002_T1.nii.gz
+│       ├── POCEMR002_T2.nii.gz
+│       └── POCEMR002_FLAIR.nii.gz
+├── 📁 POCEMR003/
+│   └── 📁 Enhanced/
+│       ├── POCEMR003_T1.nii.gz
+│       ├── POCEMR003_T2.nii.gz
+│       └── POCEMR003_FLAIR.nii.gz
+...
+```
 ### 🔹 Naming Convention
 - Each subject folder is named after the subject ID (e.g., POCEMR001)
 
