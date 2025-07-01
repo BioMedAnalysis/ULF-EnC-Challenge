@@ -94,28 +94,6 @@ Results are stored in leaderboard.csv.
 
 Each team must submit enhanced MRI images using the following naming format:
 
-```
-subject_{ID}_enhanced_{MODALITY}.nii.gz
-```
-
-**Examples:**
-
-```
-subject_1_enhanced_T1.nii.gz  
-subject_1_enhanced_T2.nii.gz  
-subject_1_enhanced_FLAIR.nii.gz  
-```
-
-**Expected Directory Structure:**
-
-```
-submissions/
-└── team_name/
-    ├── subject_1_enhanced_T1.nii.gz
-    ├── subject_1_enhanced_T2.nii.gz
-    ├── subject_1_enhanced_FLAIR.nii.gz
-    ├── ...
-```
 ### ✅ Validation Folder Structure
 
 ```
